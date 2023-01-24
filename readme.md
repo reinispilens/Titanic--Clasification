@@ -1,0 +1,5 @@
+The Titanic - Machine Learning from Disaster competition is a popular machine learning challenge that uses data from the infamous sinking of the Titanic to predict which passengers would have survived the disaster. In this competition, a simple gradient boosting model was used without any additional feature engineering or hyperparameter tuning. Despite this, the model still performed well, scoring an AUC (Area Under the Curve) of 0.77511, which placed it in the top 25% of the leaderboard.
+
+However, by fine-tuning the model's hyperparameters, the score was able to be improved to 0.78468. This is a significant improvement, but still not enough to place in the top of the leaderboard.
+
+Bagging is a technique that is used to reduce the variance of a model. By adding bagging to the gradient boosting model, the score was able to be further improved to 0.80302. This placed the model in the top 3% of the leaderboard, with a final ranking of 408 out of 13,728 participants. This demonstrates the powerful effect that bagging can have on a machine learning model and how it can help to improve performance.
